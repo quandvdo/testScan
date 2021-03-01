@@ -5,10 +5,10 @@ var formatSpecialChar = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
 (function ($) {
   jQuery('.type-all').click(function () {
     // window.location = '/wellness-journey?title='+title;
-    jQuery('select[id*=edit-type').val('All')
-    jQuery('[id*=edit-submit-wellness-joyney-list]').click()
-    removeBtnLoadMore()
-  })
+    jQuery('select[id*=edit-type').val('All');
+    jQuery('[id*=edit-submit-wellness-joyney-list]').click();
+    removeBtnLoadMore();
+  });
   jQuery('.type-songvui').click(function () {
     // window.location = '/wellness-journey?type=songvui&title='+title;
     jQuery('select[id*=edit-type').val('dinhduong')
